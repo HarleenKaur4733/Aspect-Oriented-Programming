@@ -1,6 +1,3 @@
-I love this idea. For your GitHub README, don't write textbook definitions. Write **mental models**. Six months from now, you'll thank yourself.
-
-Here's a Notepad++/README-friendly version.
 
 ````md
 # Spring Boot AOP Notes
@@ -9,7 +6,7 @@ Here's a Notepad++/README-friendly version.
 
 Without AOP:
 
-```java
+
 public void bookTicket() {
 
     System.out.println("Method Started");
@@ -18,7 +15,7 @@ public void bookTicket() {
 
     System.out.println("Method Finished");
 }
-```
+
 
 Now imagine 100 services having the same logging code.
 
